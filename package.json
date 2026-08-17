@@ -1,0 +1,17 @@
+{
+  "name": "waste-management",
+  "version": "0.1.0",
+  "description": "Automated waste bin fill monitoring with admin alerting",
+  "type": "module",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "start": "node --no-warnings src/server.js",
+    "dev": "node --no-warnings --watch src/server.js",
+    "simulate": "node --no-warnings tools/simulate.js",
+    "test": "node --no-warnings --test test/*.test.js"
+  },
+  "license": "MIT",
+  "private": true
+}

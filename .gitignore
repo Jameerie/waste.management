@@ -1,0 +1,20 @@
+# Reference clones - third-party code, NOT licensed for reuse.
+# Kept locally for study only; never committed to this repo.
+reference/
+
+# Local environment + data
+.env
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+data/
+
+node_modules/
+npm-debug.log*
+
+# Firmware secrets + build output
+firmware/src/config.h
+firmware/.pio/
+
+.DS_Store
