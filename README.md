@@ -89,6 +89,9 @@ Every one of these is covered by tests: `npm test` (35 tests, no network).
 | `firmware/` | ESP32 sensor firmware (PlatformIO). |
 | `tools/simulate.js` | Fake telemetry for hardware-free development. |
 
+Full diagrams live in [`docs/diagrams/`](docs/diagrams/) — use case,
+architecture, flowchart, and data model. They render on GitHub.
+
 ## Alerting
 
 Telegram by default: free, unlimited, instant, and it arrives as a real push
